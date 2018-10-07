@@ -1,0 +1,235 @@
+body{
+background-image:url(../images/canvas/2.jpg);
+cursor: url(../images/colors.png), default !important;
+}
+footer{
+color:rgba(255, 255, 255, 1)!important;
+}
+.box{
+
+width:100% !important;
+}
+.place{
+position:absolute;
+width:8%;
+height:16%;
+}
+.place>img{
+max-width:130%;
+max-height:130%;
+cursor: url(../images/hand.png), crosshair !important;
+border:3px solid black;
+}
+.place>img:hover{
+box-sizing: border-box;
+border:3px solid yellow;
+}
+.picture>img{
+max-width:100%;
+max-height:100%;
+border:3px double rgba(60, 0, 112, 0.82);
+box-sizing: border-box;
+}
+.picture>img.ACT{
+border:3px solid rgba(60, 0, 112, 0.82);
+}
+.picture>img.HOV{
+border:5px solid yellow;
+}
+.picture>div{
+text-align:center;
+color: rgba(60, 0, 112, 0.82);
+
+text-shadow: 1px 1px 0 #fff !important; 
+}
+
+.picture{
+position:fixed;
+}
+#g1{
+top:1%;
+left:35%;
+}
+#g2{
+top:1%;
+right:35%;
+}
+#g3{
+top:11%;
+right:15%;
+}
+#g4{
+top:42%;
+right:10%;
+}
+#g5{
+bottom:10%;
+right:15%;
+}
+#g6{
+bottom:7%;
+right:35%;
+}
+#g7{
+bottom:7%;
+left:35%;
+}
+#g8{
+bottom:15%;
+left:15%;
+}
+#g9{
+top:42%;
+left:10%;
+}
+#g10{
+top:6%;
+left:15%;
+}
+
+ .ui-progressbar {
+    position: absolute;
+	right: 5px;
+	top:10px;
+	width:120px;
+	height:30px;
+	text-align:center;
+    text-shadow: 1px 1px 0 #fff;
+	
+  }
+  .progress-label {
+    position: absolute;
+	left:38%;
+	top: -6%;
+    font-size: 100% !important; 
+	font-weight:bold !important; 
+  }
+
+  .ui-widget {
+    font-family: Rosa, Bad Script !important; 
+}
+
+.ui-widget-content {
+background: none !important;
+background-color: rgba(60, 0, 112, 0.18) !important;
+border: 1px solid rgba(60, 0, 112, 1) !important;
+}
+.ui-widget-header{
+background: none !important;
+background-color: rgba(60, 0, 112, 1) !important;
+border: 1px solid rgba(60, 0, 112, 1) !important;
+
+}
+#opener{
+	right: 5px;
+	top:95px;
+	width:120px;
+	height:30px;
+}
+#timer{
+	right: 5px;
+	top:50px;
+	width:120px;
+	height:35px;
+	position: absolute;
+	text-align:center;
+    text-shadow: 1px 1px 0 #fff;
+    font-family: Rosa, Bad Script !important; 
+	font-weight:bold !important; 
+	letter-spacing: 4px;	
+    background-color: rgba(60, 0, 112, 0.18) !important;
+	border: 1px solid rgba(60, 0, 112, 1) !important;
+	cursor: url(../images/paint.png), crosshair !important;
+	box-sizing:border-box !important;
+}
+.btn{
+    position: absolute;
+	text-align:center;
+    text-shadow: 1px 1px 0 #fff;
+    font-family: Rosa, Bad Script !important; 
+	font-weight:bold !important; 
+	letter-spacing: 4px;	
+	background: rgba(114,39,179,1);
+background: -moz-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(114,39,179,1)), color-stop(50%, rgba(122,89,153,1)), color-stop(100%, rgba(187,159,212,1)));
+background: -webkit-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: -o-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: -ms-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: linear-gradient(to bottom, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7227b3', endColorstr='#bb9fd4', GradientType=0 );
+	border: 1px solid rgba(60, 0, 112, 1) !important;
+	cursor: url(../images/paint.png), crosshair !important;
+	box-sizing:border-box !important;
+}
+
+.btn:active{
+background: rgba(60,0,112,1)!important; 
+background: -moz-linear-gradient(top, rgba(60,0,112,1) 0%, rgba(97,32,153,1) 40%, rgba(122,89,153,1) 79%, rgba(187,159,212,1) 100%)!important; 
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,0,112,1)), color-stop(40%, rgba(97,32,153,1)), color-stop(79%, rgba(122,89,153,1)), color-stop(100%, rgba(187,159,212,1)))!important; 
+background: -webkit-linear-gradient(top, rgba(60,0,112,1) 0%, rgba(97,32,153,1) 40%, rgba(122,89,153,1) 79%, rgba(187,159,212,1) 100%)!important; 
+background: -o-linear-gradient(top, rgba(60,0,112,1) 0%, rgba(97,32,153,1) 40%, rgba(122,89,153,1) 79%, rgba(187,159,212,1) 100%)!important; 
+background: -ms-linear-gradient(top, rgba(60,0,112,1) 0%, rgba(97,32,153,1) 40%, rgba(122,89,153,1) 79%, rgba(187,159,212,1) 100%)!important; 
+background: linear-gradient(to bottom, rgba(60,0,112,1) 0%, rgba(97,32,153,1) 40%, rgba(122,89,153,1) 79%, rgba(187,159,212,1) 100%)!important; 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c0070', endColorstr='#bb9fd4', GradientType=0 )!important; 
+	border: 1px solid rgba(60, 0, 112, 1) !important;
+}
+.ui-dialog-buttonset{
+    position: absolute !important; 
+	right: 5px !important; 
+	top:50px !important; 
+	width:120px !important; 
+	height:30px !important; 
+	text-align:center !important; 
+    text-shadow: 1px 1px 0 #fff !important; 
+    font-family: Rosa, Bad Script !important; 
+	font-weight:bold !important; 
+	letter-spacing: 4px;	
+	background: rgba(114,39,179,1);
+background: -moz-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(114,39,179,1)), color-stop(50%, rgba(122,89,153,1)), color-stop(100%, rgba(187,159,212,1)));
+background: -webkit-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: -o-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: -ms-linear-gradient(top, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+background: linear-gradient(to bottom, rgba(114,39,179,1) 0%, rgba(122,89,153,1) 50%, rgba(187,159,212,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7227b3', endColorstr='#bb9fd4', GradientType=0 );
+	border: 1px solid rgba(60, 0, 112, 1) !important;
+	cursor: url(../images/paint.png), crosshair !important;
+	
+}
+#dialog>p{
+color:black;
+text-shadow: 1px 1px 0 #fff !important; 
+font-weight:bold !important; 
+}
+
+#dialog.ui-widget-content {
+background-color: rgba(255, 255, 255, 0.6) !important; 
+}
+
+#play{
+width:90%;
+}
+
+.ui-state-default .ui-icon {
+background-image: url(../images/close.png) !important; 
+	cursor: url(../images/paint.png), crosshair !important;
+
+}
+.ui-dialog-title{
+font-weight:normal;
+}
+
+.picture>img + img{
+visibility:hidden;
+}
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner{
+border: none;
+}
+button:focus{
+border: 1px solid rgba(60, 0, 112, 1) !important;
+}
+:focus {
+outline: none;
+}

@@ -1,0 +1,84 @@
+#p1{
+width:12%;
+height:20%;
+top:20%;
+left:24%;
+}
+#p2{
+width:10%;
+height:20%;
+top:20%;
+left:34.5%;
+}
+#p3{
+width:10%;
+height:20%;
+top:20%;
+right:34.5%;
+}
+#p4{
+width:10%;
+height:20%;
+top:20%;
+right:24%;
+}
+#p5{
+width:10%;
+height:20%;
+top:20%;
+left:45%;
+}
+#p6{
+width:12%;
+height:20%;
+bottom:31%;
+left:24%;
+}
+#p7{
+width:10%;
+height:20%;
+bottom:31%;
+left:34.5%;
+}
+#p8{
+width:10%;
+height:20%;
+bottom:31%;
+right:34.5%;
+}
+#p9{
+width:10%;
+height:20%;
+bottom:31%;
+right:24%;
+}
+#p10{
+width:10%;
+height:20%;
+bottom:31%;
+left:45%;
+}
+.picture>div{
+font: bold 16px Rosa, Bad Script; 
+}
+.place>img{
+max-width:110% !important;
+max-height:110% !important;
+}
+
+#dialog1>p{
+color:black;
+text-shadow: 1px 1px 0 #fff !important; 
+font-weight:bold !important; 
+}
+
+#dialog1.ui-widget-content {
+background-color: white !important; 
+}
+.ui-dialog-title{
+letter-spacing: 3px;	
+}
+#play1{
+width:90%;
+bottom:15px;
+}

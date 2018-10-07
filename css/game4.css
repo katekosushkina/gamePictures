@@ -1,0 +1,27 @@
+#p1{
+width:12%;
+height:22%;
+top:24%;
+left:27%;
+}
+#p2{
+width:12%;
+height:22%;
+bottom:30%;
+right:24%;
+}
+#p3{
+width:12%;
+height:22%;
+bottom:30%;
+left:39%;
+}
+#p4{
+width:12%;
+height:22%;
+top:24%;
+right:37%;
+}
+.picture>div{
+font: bold 20px Rosa, Bad Script; 
+}

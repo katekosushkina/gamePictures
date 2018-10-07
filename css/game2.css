@@ -1,0 +1,16 @@
+#p1{
+width:15%;
+height:26%;
+top:32%;
+left:35%;
+}
+#p2{
+width:15%;
+height:26%;
+top:38%;
+right:35%;
+}
+
+.picture>div{
+font: bold 23px Rosa, Bad Script; 
+}

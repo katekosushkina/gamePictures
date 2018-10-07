@@ -1,0 +1,43 @@
+#p1{
+width:12%;
+height:20%;
+top:22%;
+left:25%;
+}
+#p2{
+width:10%;
+height:20%;
+top:22%;
+right:32%;
+}
+#p3{
+width:10%;
+height:20%;
+top:22%;
+left:41%;
+}
+#p4{
+width:10%;
+height:20%;
+bottom:32%;
+right:41%;
+}
+#p5{
+width:10%;
+height:20%;
+bottom:32%;
+right:25%;
+}
+#p6{
+width:10%;
+height:20%;
+bottom:32%;
+left:32%;
+}
+.picture>div{
+font: bold 18px Rosa, Bad Script; 
+}
+.place>img{
+max-width:120% !important;
+max-height:120% !important;
+}

@@ -1,0 +1,21 @@
+#p1{
+width:18%;
+height:32%;
+top:32%;
+left:41%;
+}
+.picture>div{
+font: bold 25px Rosa, Bad Script; 
+}
+
+#dialog3>p{
+color: rgba(60, 0, 112, 0.82);
+text-shadow: 3px 3px 0  white !important; 
+font-weight:bold !important; 
+font: bold 50px Rosa, Bad Script; 
+text-align:center;
+}
+#dialog3.ui-widget-content {
+background-color: rgba(255, 255, 255, 0.6) !important; 
+}
+

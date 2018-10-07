@@ -1,0 +1,22 @@
+body{
+background-image:url(../images/canvas/collage.jpg);
+cursor: url(../images/colors.png), default !important;
+}
+.container{
+background-image: url(../images/canvas/1.jpg);
+-webkit-box-shadow: inset 0px 0px 60px -6px rgba(71, 46, 21, 0.84);
+-moz-box-shadow: inset 0px 0px 60px -6px rgba(71, 46, 21, 0.84);
+box-shadow: inset 0px 0px 60px -6px rgba(71, 46, 21, 0.84);
+max-width:840px !important;
+}
+.rules{
+padding:70px;
+font:bold 25px Bad Script;
+text-decoration:none;
+color:rgba(0, 0, 0, 0.68);
+cursor: url(../images/paint.png), crosshair !important;
+text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.66);
+}
+.rules>p{
+text-indent: 30px;
+}
